@@ -1,0 +1,23 @@
+.Game {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  border: 2px black solid;
+  display: grid;
+  grid-template-areas: "opponent opponent opponent" "field field bank" "player player player";
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.5fr 0.5fr 1fr;
+}
+.Game .Game__Player {
+  grid-area: player;
+  display: flex;
+}
+.Game .Game__Opponent {
+  grid-area: opponent;
+}
+.Game .Game__Field {
+  grid-area: field;
+}
+.Game .Game__Bank {
+  grid-area: bank;
+}/*# sourceMappingURL=Game.css.map */

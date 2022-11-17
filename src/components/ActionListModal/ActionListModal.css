@@ -1,0 +1,13 @@
+.ActionListModal {
+  background-color: #9b9b9b;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}/*# sourceMappingURL=ActionListModal.css.map */

@@ -1,0 +1,16 @@
+.Player {
+  position: relative;
+}
+.Player .Player__Info {
+  display: flex;
+}
+.Player .Player__Info .ActionBtn {
+  margin-left: auto;
+  margin-right: 0;
+}
+.Player .Player__Cards {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  overflow-y: auto;
+}/*# sourceMappingURL=Player.css.map */

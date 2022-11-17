@@ -1,0 +1,19 @@
+.Action {
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 8px 4px;
+}
+.Action:not(:last-child) {
+  margin-bottom: 12px;
+}
+.Action:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.Action .Action__Title {
+  margin: 0 0 8px 0;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+.Action .Action__Description {
+  margin: 0;
+}/*# sourceMappingURL=Action.css.map */

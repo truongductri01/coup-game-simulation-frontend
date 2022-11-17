@@ -1,0 +1,31 @@
+.Modal {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.2);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5% 10%;
+  box-sizing: border-box;
+  z-index: 1000000;
+  height: 100%;
+}
+.Modal .Modal__Content {
+  border: 1px solid black;
+  border-radius: 4px;
+  max-height: 90%;
+  overflow: auto;
+  position: relative;
+  z-index: 0;
+}
+.Modal .Modal__Header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  box-shadow: 0 0px 2px black;
+}
+.Modal .Modal__Header div {
+  background: lightgray;
+}/*# sourceMappingURL=Modal.css.map */

@@ -1,0 +1,19 @@
+.MockLogin {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+.MockLogin .MockLogin__PlayerData {
+  cursor: pointer;
+  min-width: 100px;
+  margin-bottom: 12px;
+}
+.MockLogin .MockLogin__PlayerData:not(:last-child) {
+  margin-right: 12px;
+}
+.MockLogin .MockLogin__PlayerData:hover {
+  background-color: lightgrey;
+}/*# sourceMappingURL=MockLogin.css.map */
